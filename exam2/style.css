@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(210, 126, 16);
+    font-family: "Dancing Script", serif;
+    text-shadow: 20px 0px 20px rgb(255, 177, 74);
+}
+body{
+    background-color: black;
+}
+ 
+
+.title{
+    text-align: center;
+}
+.p{
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.img{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.restaurant{
+    
+    border:1px solid;
+    border-radius: 30px;
+    height:500px;
+    object-fit: cover;
+}
+
+nav ul{
+    
+    display: flex;
+    gap:30px;
+    margin: 0;
+    padding:0;
+    list-style: none;
+    justify-content: center;
+    
+}
+nav ul a{
+    padding-top: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+nav ul a:hover{
+    color: rgb(39, 39, 241);
+}
+
+
+nav li {
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    list-style: none;
+}
+
+.food{
+    height: 150px;
+    width:150px;
+    border-radius:15px;
+     
+}
+.fooddiv{
+    padding:20px;
+    padding-top: 40px;
+    justify-content: center;
+    display: flex;
+    gap:30px;
+}
+button{
+    background-color: burlywood;
+    height:20px;
+    width:40px
+}
+
+.story{
+     
+    padding-top: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: center;
+    transition: 0.3s;
+}
+.idk a{
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.idk a:hover{
+    color:  rgb(39, 39, 241);
+}
